@@ -6,12 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		633C5F1C2E7FB88600CDD763 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 633C5F1B2E7FB88600CDD763 /* GoogleSignIn */; };
-		633C5F1E2E7FB88600CDD763 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 633C5F1D2E7FB88600CDD763 /* GoogleSignInSwift */; };
-		633C5F212E7FB96500CDD763 /* GoogleAPIClientForREST_Drive in Frameworks */ = {isa = PBXBuildFile; productRef = 633C5F202E7FB96500CDD763 /* GoogleAPIClientForREST_Drive */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		63C82AE42E6F8823003D6F46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,22 +29,9 @@
 		63C82AED2E6F8823003D6F46 /* MardHelplineDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MardHelplineDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		633C5F252E7FBF8900CDD763 /* Exceptions for "MardHelplineDEMO" folder in "MardHelplineDEMO" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 63C82AD42E6F8822003D6F46 /* MardHelplineDEMO */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		63C82AD72E6F8822003D6F46 /* MardHelplineDEMO */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				633C5F252E7FBF8900CDD763 /* Exceptions for "MardHelplineDEMO" folder in "MardHelplineDEMO" target */,
-			);
 			path = MardHelplineDEMO;
 			sourceTree = "<group>";
 		};
@@ -71,9 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633C5F212E7FB96500CDD763 /* GoogleAPIClientForREST_Drive in Frameworks */,
-				633C5F1C2E7FB88600CDD763 /* GoogleSignIn in Frameworks */,
-				633C5F1E2E7FB88600CDD763 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +112,6 @@
 			);
 			name = MardHelplineDEMO;
 			packageProductDependencies = (
-				633C5F1B2E7FB88600CDD763 /* GoogleSignIn */,
-				633C5F1D2E7FB88600CDD763 /* GoogleSignInSwift */,
-				633C5F202E7FB96500CDD763 /* GoogleAPIClientForREST_Drive */,
 			);
 			productName = MardHelplineDEMO;
 			productReference = 63C82AD52E6F8822003D6F46 /* MardHelplineDEMO.app */;
@@ -221,8 +196,6 @@
 			mainGroup = 63C82ACC2E6F8821003D6F46;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				633C5F1A2E7FB88600CDD763 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				633C5F1F2E7FB96500CDD763 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 63C82AD62E6F8822003D6F46 /* Products */;
@@ -630,43 +603,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		633C5F1A2E7FB88600CDD763 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-		633C5F1F2E7FB96500CDD763 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		633C5F1B2E7FB88600CDD763 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 633C5F1A2E7FB88600CDD763 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		633C5F1D2E7FB88600CDD763 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 633C5F1A2E7FB88600CDD763 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-		633C5F202E7FB96500CDD763 /* GoogleAPIClientForREST_Drive */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 633C5F1F2E7FB96500CDD763 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
-			productName = GoogleAPIClientForREST_Drive;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63C82ACD2E6F8822003D6F46 /* Project object */;
 }

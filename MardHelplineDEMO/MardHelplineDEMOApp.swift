@@ -7,7 +7,7 @@ struct MardHelplineDEMOApp: App {
     
     init() {
         // Configure Google Sign-In - FIXED
-        if let path = Bundle.main.path(forResource: "client_768935080812-coqu2kca5413ransr5il09sak6thms99.apps.googleusercontent.com", ofType: "plist"),
+        if let path = Bundle.main.path(forResource: "xyz", ofType: "plist"),
            let plist = NSDictionary(contentsOfFile: path),
            let clientId = plist["CLIENT_ID"] as? String {
             GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: clientId)
